@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test Formulaire</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<a href="#" class="logo">Coding</a>
+			<ul>
+				<li class="li">Cliquer sur le bouton se connecter!</li>
+				<li>
+					<button class="btn" id="displayForm">Se Connecter</button>
+				</li>
+			</ul>
+		</nav>
+		<section>
+			<div class="sec-container">
+				<div class="form-wrapper">
+					<div class="card">
+						<div class="card-header">
+							<div class="form-header active" id="forLogin">Se connecter</div>
+							<div class="form-header" id="forRegister">S'inscrire</div>
+						</div>
+						<div class="card-body" id="formContainer">
+							<form action="" method="" id="loginForm">
+								<!--<ion-icon name="person-circle-outline"></ion-icon>-->
+								<input type="text" placeholder="@utilisateur" class="form-control" name="">
+								<!--<ion-icon name="lock-closed-outline"></ion-icon>-->
+								<input type="password" placeholder="@mot de passe" class="form-control" name="">
+								<button class="formButton">Connexion</button>
+								<p>Vous n'avez pas de compte? inscrivez-vous en cliquant sur le bouton s'incrire ci-dessus!</p>
+							</form>
+
+							<form action="" method="" id="registerForm" class="toggleForm">
+								<!--<ion-icon name="person-circle-outline"></ion-icon>-->
+								<input type="text" placeholder="@utilisateur" class="form-control" name="">
+								<!--<ion-icon name="lock-closed-outline"></ion-icon>-->
+								<input type="password" placeholder="@mot de passe" class="form-control" name="">
+								<!--<ion-icon name="lock-closed-outline"></ion-icon>-->
+								<input type="password" placeholder="@confirmer mot de passe" class="form-control" name="">
+								<button class="formButton">Inscription</button>
+								<p>Si vous avez deja un compte...connectez-!vous</p>
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+    <script src="java.js"></script>	
+
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
